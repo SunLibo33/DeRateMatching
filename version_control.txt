@@ -1,0 +1,20 @@
+Project Purpose: To simulate the derate matching for the FPGA architecture
+Original Author: Charles charlesjiangxm@gmail.com
+Last Modifier: Charles charlesjiangxm@gmail.com
+-------------------------------------------------------------------------------
+Last Modified Date: 7.19 2018
+Content:
+(1) This is a worked version containing 3 changes, i.e. length1, length2 and
+length3. If you want to add the 2Zc bias before the Ncb_filling during the
+placement. Then this is the right version for you.
+-------------------------------------------------------------------------------
+Last Modified Date:
+Content:
+(1) Delete main_7_16.txt and main_7_18.txt. If you want to use them, look up in
+the previous versions.
+(2) Update the DerateMatch class, partly exhastive test past. Delete length3.
+Right now there's only length1 and length2 here. Because if 2Zc bias is not
+included, there'll only be at most two changes.
+(3) Delete the time calculation in main, if you want to use it, please see the
+previous version.
+-------------------------------------------------------------------------------
